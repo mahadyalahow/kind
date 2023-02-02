@@ -1,0 +1,165 @@
+helm list --all namespaces
+
+  151  helm list --all-namespaces
+
+  152  helm list
+
+  153  kubectl first
+
+  154  kubectl et all
+
+  155  kubectl get all
+
+  156  history
+
+  157  ls
+
+  158  rm -rf first 
+
+  159  helm create first 
+
+  160  helm list
+
+  161  helm list --all-namespaces
+
+  162  kubectl get all
+
+  163  cd
+
+  164  cd first/
+
+  165  ls
+
+  166  cd templates/
+
+  167  ls
+
+  168  cd ..
+
+  169  cd
+
+  170  rm -rf first/templates/
+
+  171  ls
+
+  172  cd first/
+
+  173  ls
+
+  174  nano values.yaml 
+
+  175  ccd
+
+  176  cd
+
+  177  rm -rf first
+
+  178  helm create first 
+
+  179  cd first/
+
+  180  ls
+
+  181  cd templates/
+
+  182  ls
+
+  183  nano configmap.yml
+
+  184  cd
+
+  185  rm -rf first/templates/
+
+  186  helm install first 
+
+  187  helm install first . -n first-ns --create-namespace
+
+  188  cd first/
+
+  189  ls
+
+  190  helm install first . -n first-ns --create-namespace
+
+  191  cd
+
+  192  echo ". <(kubectl completion bash)" >> ~/.bashrc
+
+  193  source ~/.bashrc
+
+  194  cd first/
+
+  195  nano values.yaml 
+
+  196  nano values.yaml 
+
+  197  ls
+
+  198  nano values.yaml 
+
+  199  ls
+
+  200  cd
+
+  201  f
+
+  202  cd first/
+
+  203  ls
+
+  204  mkdir templates
+
+  205  cd templates/
+
+  206  ls
+
+  207  nano configmap.yml
+
+  208  cd ..
+
+  209  nano values.yaml 
+
+  210  helm install first . -n first
+
+  211  helm install first . -n first-ns
+
+  212  helm upgrade first . -n first-ns
+
+  213  kubectl create deployment first --image nginx
+
+  214  kubectl get deployment -o yaml 
+
+  215  cd templates/
+
+  216  kubectl get deployment -o yaml > deployment.yaml
+
+  217  ls
+
+  218  cd ..
+
+  219  kubectl delete deployment first
+
+  220  helm upgrade first . -n first-ns
+
+  221  ls
+
+  222  cd templates/
+
+  223  ls
+
+  224  nano deployment.yaml 
+
+  225  cd
+
+  226  cd first/
+
+  227  kubectl create deployment database --image nginx
+
+  228  helm install database . -n database
+
+  229  helm install database . -n database --create-namespaces
+
+  230  history
+
+
+
+
